@@ -29805,6 +29805,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
           justify-content: center;
           align-items: center;
         }
+
+        .assessment-table.center-header{
+          text-align: center !important;
+        }
+
+        .assessment-table.mark-header{
+          padding-left: 7%;
+        }
+
+        .assessment-table.results-header{
+          text-align: left !important;
+        }
 :root {
   --primary: #4D44B5;
   --secondary: #FB7D5B;
