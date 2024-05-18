@@ -11606,7 +11606,7 @@ The smaller device rules always should write below the bigger device rules
 Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Component
 */
 [data-sidebar-style="full"][data-layout="vertical"] .dlabnav .metismenu > li {
-  padding: 0 1.25rem 0 1.25rem; }
+  padding: 0 0rem 0 1.25rem; }
   [data-sidebar-style="full"][data-layout="vertical"] .dlabnav .metismenu > li > a {
     font-size: 0.875rem;
     padding: 0.638rem 1.5rem;
@@ -14137,31 +14137,42 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       color: #fff !important; }
   [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu a,
   [data-sidebarbg="color_2"] .dlabnav .metismenu a {
-    color: rgba(255, 255, 255, 0.8) !important; }
+    /* color: rgba(255, 255, 255, 0.8) !important; */
+    color:#051428 !important;
+   }
   [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu li ul a:hover, [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu li ul a:focus, [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu li ul a.mm-active,
   [data-sidebarbg="color_2"] .dlabnav .metismenu li ul a:hover,
   [data-sidebarbg="color_2"] .dlabnav .metismenu li ul a:focus,
   [data-sidebarbg="color_2"] .dlabnav .metismenu li ul a.mm-active {
-    color: #fff !important; }
+    /* color: #fff !important; */
+    color:#051428 !important;
+   }
   [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu > li > a,
   [data-sidebarbg="color_2"] .dlabnav .metismenu > li > a {
     color: #051428 !important; }
     [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu > li > a i,
     [data-sidebarbg="color_2"] .dlabnav .metismenu > li > a i {
-      color: rgba(255, 255, 255, 0.85) !important; }
+      /* color: rgba(255, 255, 255, 0.85) !important; */
+      color :#AEB3C1 !important;
+     }
   [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu > li.mm-active > a,
   [data-sidebarbg="color_2"] .dlabnav .metismenu > li.mm-active > a {
-    background: rgba(255, 255, 255, 0.15) !important;
-    color: #fff !important; }
+    /* background: rgba(255, 255, 255, 0.15) !important;
+    color: #fff !important; */
+    background: #E7EEFB !important;
+    color: #415CE7 !important;
+   }
     [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu > li.mm-active > a i,
     [data-sidebarbg="color_2"] .dlabnav .metismenu > li.mm-active > a i {
-      color: #fff !important; }
+      color: #415CE7 !important; }
     [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu > li.mm-active > a:before,
     [data-sidebarbg="color_2"] .dlabnav .metismenu > li.mm-active > a:before {
       background: #fff !important; }
   [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .metismenu .has-arrow:after,
   [data-sidebarbg="color_2"] .dlabnav .metismenu .has-arrow:after {
-    border-color: rgba(255, 255, 255, 0.85) transparent transparent rgba(255, 255, 255, 0.85); }
+    /* border-color: rgba(255, 255, 255, 0.85) transparent transparent rgba(255, 255, 255, 0.85);  */
+  border-color: transparent !important;
+  }
   [data-sidebarbg="color_2"][data-theme-version="dark"] .dlabnav .header-info2 span,
   [data-sidebarbg="color_2"] .dlabnav .header-info2 span {
     color: #fff; }
@@ -28457,8 +28468,8 @@ tr .trans-td-list {
         width: 2.95rem;
         height: 2.95rem; } }
   .avatar.avatar-xl {
-    width: 7.5rem;
-    height: 7.5rem; }
+    width: 7rem;
+    height: 7rem; }
     @media only screen and (max-width: 74.9375rem) {
       .avatar.avatar-xl {
         width: 5rem;
@@ -29014,7 +29025,9 @@ input[type=number] {
 
 .food-menu {
   display: flex;
-  align-items: center; }
+  align-items: center; 
+  gap:15px
+}
 
 .food-review {
   display: flex;
@@ -31107,3 +31120,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
       color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
+
