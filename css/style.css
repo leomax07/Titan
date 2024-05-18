@@ -28477,6 +28477,13 @@ tr .trans-td-list {
       .avatar.avatar-lg {
         width: 2.95rem;
         height: 2.95rem; } }
+  .avatar.avatar-lg-2 {
+    width: 5.125rem;
+    height: 5.125rem; }
+    @media only screen and (max-width: 87.5rem) {
+      .avatar.avatar-lg-2 {
+        width: 3.5rem;
+        height: 3.5rem; } }
   .avatar.avatar-xl {
     width: 7rem;
     height: 7rem; }
@@ -29727,6 +29734,77 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .table-responsive .table.order-table thead th:last-child {
       border-top-right-radius: 0.375rem; }
 
+      .calendar-field{
+        background-color: #FFFFFF;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        border: 1px solid #88888850;
+        font-size: 1rem;
+      }
+
+      .day-month-selector{
+        display: flex;
+        border-radius: 0.5rem;
+        overflow: hidden;
+      }
+
+      .day-month-selector .day-button{
+        background-color: #415CE7;
+        padding: 0.5rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      .day-month-selector .month-button{
+        background-color: #E3E3E3;
+        padding: 0.5rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .attendance-title{
+        font-weight: 400;
+        margin-bottom: 2rem;
+      }
+
+      .attendance-success{
+        background-color: #35BAB2;
+        color: #FFFFFF;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 100%;
+        padding: 0.75rem; }
+
+        .student-name{
+          color: black;
+          font-weight: 400;
+        }
+
+        .period-card{
+          color: #FFFFFF;
+          padding: 0.5rem 0.75rem;
+          text-align: center;
+          font-size: 0.75rem;
+          border-radius: 0.25rem;}
+
+        .period-card.period-card-success{
+          background-color: #35BAB2;}
+
+        .period-card.period-card-danger{
+          background-color: #F35D6F;}
+        
+        .attendance-navigate{
+          background-color: #415CE7;
+          height: 3.375rem;
+          width: 3.375rem;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
 :root {
   --primary: #4D44B5;
   --secondary: #FB7D5B;
