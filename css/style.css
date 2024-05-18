@@ -8912,6 +8912,10 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
       padding-right: 15px;
       padding-left: 15px; } }
 
+      @media only screen and (max-width: 47.9375rem) {
+
+      }
+
 /*sp*/
 .row.sp4,
 .sp4 {
@@ -10209,6 +10213,10 @@ svg.pulse-svg {
   font-size: 0.875rem;
   font-weight: 700;
   white-space: nowrap; }
+
+
+
+
 
 .header-left {
   height: 100%;
@@ -20013,7 +20021,9 @@ input#checkAll.form-check-input:checked {
 
 .flot-chart {
   height: 15.7rem; }
-
+.flot-chart-acadamics{
+  height: 100%;
+}
 .tooltipflot {
   background-color: transparent;
   font-size: 1.4rem;
@@ -28813,13 +28823,29 @@ tr .trans-td-list {
   height: 3rem; }
   @media only screen and (max-width: 117.5rem) {
     .search-area {
-      width: 22rem; } }
+      width: 22rem; }
+      .added-response{
+        
+        border-radius: 40px;
+      }
+      .add-responselist{
+        display: flex; align-items: center; gap:30px
+      }
+    }
   @media only screen and (max-width: 81.25rem) {
     .search-area {
       width: 17.5rem; } }
   @media only screen and (max-width: 74.9375rem) {
     .search-area {
-      width: 15.625rem; } }
+      width: 15.625rem; }
+      .added-response{
+        width: 12rem;
+        border-radius: 40px;
+      }
+      .add-responselist{
+        display: flex; align-items: center; gap:10px
+      }
+    }
   .search-area .form-control {
     font-size: 15px;
     border-right: 0;
